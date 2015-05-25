@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.2.0)
+    aws-kclrb (1.0.0)
+      multi_json (~> 1.0)
+    aws-sdk (2.0.45)
+      aws-sdk-resources (= 2.0.45)
+    aws-sdk-core (2.0.45)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+    aws-sdk-resources (2.0.45)
+      aws-sdk-core (= 2.0.45)
+    builder (3.2.2)
+    byebug (4.0.5)
+      columnize (= 0.9.0)
+    coderay (1.1.0)
+    columnize (0.9.0)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
+    method_source (0.8.2)
+    multi_json (1.11.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.1.0)
+      byebug (~> 4.0)
+      pry (~> 0.10)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  aws-kclrb
+  aws-sdk
+  pry-byebug
